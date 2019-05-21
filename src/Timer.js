@@ -16,11 +16,6 @@ class Timer extends Component {
     clearInterval(this.interval)
   }
 
-
-
-
-
-
   render() {
 
     const { time, color, className } = this.state
@@ -51,7 +46,6 @@ class Timer extends Component {
   handleClose = () => {
     this.props.removeTimer(this.props.id)
   }
-
 
 }
 
